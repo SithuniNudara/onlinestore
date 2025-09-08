@@ -8,7 +8,7 @@ class DataBase{
 
         
         if (!isset(DataBase::$connection)) {
-            DataBase::$connection = new mysqli("localhost","root","/*Supersit123*/","online_db","3306");
+            DataBase::$connection = new mysqli("localhost","root","","","3306");
         }
 
     }
